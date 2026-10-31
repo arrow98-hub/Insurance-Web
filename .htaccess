@@ -1,0 +1,7 @@
+# Redirecciones de las páginas del WordPress anterior
+Redirect 301 /preguntas_frecuentes/ /preguntas-frecuentes.html
+Redirect 301 /contacto/ /contacto.html
+Redirect 301 /cita/ /cita.html
+Redirect 301 /cotizacion/ /cotizacion.html
+Redirect 301 /nuevos_asesores/ /nuevos-asesores.html
+Redirect 301 /politicas_de_privacidad/ /politica-privacidad.html

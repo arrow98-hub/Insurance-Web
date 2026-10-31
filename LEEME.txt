@@ -1,0 +1,27 @@
+NEXUS DIAMOND TEAM — SITIO NUEVO (HTML)
+=========================================
+
+CÓMO SUBIRLO A HOSTINGER
+1. Entra a hPanel > Sitios web > Administrador de archivos.
+2. Abre la carpeta public_html y borra lo que haya de WordPress (haz un respaldo antes).
+3. Sube TODO el contenido de esta carpeta (no la carpeta, su contenido):
+   index.html, las demás páginas .html, enviar.php, /assets y /img.
+4. Listo: abre nexusdiamondteam.com.
+
+FORMULARIOS (para recibir los leads por correo)
+- Los formularios envían a enviar.php, que manda un correo a info@nexusdiamondteam.com.
+- En hPanel > Correos, crea la cuenta web@nexusdiamondteam.com (solo se usa como remitente).
+- Si quieres recibirlos en otro correo, cambia $DESTINO al inicio de enviar.php.
+- Copia de seguridad: cada envío también se guarda en /leads/leads.csv (protegido, no es público).
+  Puedes descargarlo desde el Administrador de archivos.
+
+LOGOS DE LAS ASEGURADORAS
+- La página principal ya usa los logos disponibles en img/aseguradoras/.
+- Si sustituyes un archivo, conserva la ruta de su imagen en index.html. Si una imagen
+  no está disponible, se mostrará el nombre de la aseguradora como alternativa.
+
+CIFRAS DE LA SECCIÓN "CALIDAD DE VIDA ASEGURADA"
+- En index.html busca data-count="9", "3" y "6". Puedes cambiarlas por cifras reales
+  (familias protegidas, años de experiencia, estados) editando el número y el texto.
+
+REDIRECCIONES DE LAS URL VIEJAS: ya vienen en el archivo .htaccess incluido (archivo oculto).
